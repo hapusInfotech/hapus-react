@@ -1,0 +1,55 @@
+/*** Footer Start ***/
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://hapusinfotech.com/themes/custom/hapus_info_tech/css/footer.png)
+      center center no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  /* margin-top: 6rem; */
+}
+
+.footer-item,
+.footer-item a {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .footer-item a {
+  line-height: 30px;
+  color: var(--bs-white);
+  transition: 0.5s;
+}
+
+.footer .footer-item a:hover {
+  letter-spacing: 2px;
+  color: #cf6e16 !important;
+  ;
+}
+.copyright-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright-btn .copyright-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright-btn .btn-primary {
+  background-color: #cf6e16;
+  border: none;
+}
+.design a {
+  color: #cf6e16;
+}
+.dropdown-item{
+    color:black !important;
+}
+/*** Footer End ***/

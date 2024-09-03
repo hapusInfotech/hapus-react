@@ -1,0 +1,84 @@
+:root {
+  --white-color: #ffffff;
+  --primary-color: #13547a;
+  --secondary-color: #80d0c7;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #80d0c7;
+  --custom-btn-bg-hover-color: #13547a;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #13547a;
+  --hapus-blue-color: #2b3d8d;
+
+  --body-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Montserrat", sans-serif;
+
+  --h1-font-size: 58px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 20px;
+  --menu-font-size: 14px;
+  --btn-font-size: 18px;
+  --copyright-font-size: 16px;
+
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #cf6e16;
+  --bs-secondary: #555555;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f5f6f6;
+  --bs-dark: #111111;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+body {
+  margin: 0;
+  font-family: "Open", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
